@@ -44,10 +44,10 @@ Follow these instructions to view or modify the hardware design files locally.
 The repository is organized to separate the editable design files from the static manufacturing outputs:
 
 *   **Design Files:**
-     The root directory contains the core KiCad project files, including the schematic (game pad atmega 16u2 based.kicad_sch), the physical layout (game pad atmega 16u2 based.kicad_pcb), and a PDF export of the design (game pad atmega 16u2 based.pdf).
+     The Hardware/ directory contains the core KiCad project files, including the schematic (game pad atmega 16u2 based.kicad_sch), the physical layout (game pad atmega 16u2 based.kicad_pcb), and a PDF export of the design (game pad atmega 16u2 based.pdf).
 *    **Board Renders:**
       High-resolution 3D renders of the physical layout are available as game pad atmega 16u2 based-front.png and game pad atmega 16u2 based-back.png.  
-*    **Manufacturing Files (/Manufacturing/):** 
+*    **Manufacturing Files (Hardware/Manufacturing/):** 
       This directory contains everything a fabrication house like JLCPCB or PCBWay needs to manufacture and assemble the board:
       * **game pad atmega 16u2 based-gerber.rar:** The compressed Gerber layers and drill files for PCB fabrication.
       * **game pad atmega 16u2 based-BOM.csv:** The complete Bill of Materials for component sourcing and assembly.
